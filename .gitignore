@@ -1,0 +1,7 @@
+.vscode
+*.csv
+*.log
+*.o
+*.conf
+*.h5
+bbhsim

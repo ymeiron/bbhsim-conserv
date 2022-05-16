@@ -1,0 +1,34 @@
+# Mass ratio (the mass of the first SMBH is 1, the second's mass is q)
+# Constraint: 0 < q <= 1
+q         = 0.1
+
+# Initial position (along the x-axis) of SMBHs.
+# If q<1, the major SMBH is at the origin while the minor is at x = R0.
+# If q=1, the SMBHs are placed at x = ±R0.
+R0        = 5.0
+
+# Initial velocity along the x-axis
+# This refers to the second SMBH, if the mass are equal, the first SMBH will have the opposite value.
+vx        = -0.1
+
+# Initial velocity along the y-axis
+# This refers to the second SMBH, if the mass are equal, the first SMBH will have the opposite value.
+vy        = 0.3
+
+# Time interval to update the frictional forces.
+dt_fric   = 0.1
+
+# Length of time of the simulation.
+t_end     = 100
+
+# Number of stars.
+N_stars   = 250000
+
+# Length scale of the Plummer sphere.
+a_plummer = 10
+
+# Mass of the Plummer sphere (in units of the primary SMBH)
+m_plummer = 2
+
+# Optional parameters:
+# description, output_mode, bh_eps_abs, bh_eps_rel, star_eps_abs, star_eps_rel
